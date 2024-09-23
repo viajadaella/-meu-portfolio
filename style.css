@@ -1,0 +1,141 @@
+body, nav, main {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.principal {
+    background-color: #EDEAEA;
+    padding-top: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+#sobre {
+padding: 50px;
+max-width: 600px;
+}
+.menu {
+    background-color: #938DF8;
+    padding: 30px 0;
+    text-align: end /* coloca os itens para direta da pagina  */
+    ;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; /* tira estilo de lista */
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.imagem {
+    width: 150px;
+    border-radius: 10px; /* deixa a imagem mais redonda, tipo borda */
+
+}
+.seçao-tres {
+    background-color: #EDEAEA;
+    ;
+}
+
+.seçao-quatro {
+    background-color: #5A53D8;
+    ;
+}
+.titulo {
+    color: #938DF8;
+    font-size: 36px;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 700;
+}
+.subtitulo {
+    font-size: 24px;
+    font-weight: 700;
+}
+.primeiro-paragrafo {
+    font-size: 16px;
+    line-height: 22/4px;
+    max-width: 500px;
+    }
+
+    #formacao {
+        background-color: #fff;
+        padding: 30px 80px;
+    }
+    
+    .titulo_formacao {
+        color: #49BFB3;
+        font-size: 30px;
+    }
+    
+    .conteudo_formacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .info_formacao {
+        width: 100%;
+        max-width: 600px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    /* COMETARIO SHIFT ALT E A */
+
+    #Portfolio {
+        background-color: #EDEAEA;
+        padding: 30px 80px; /* ESPAÇAMENTO TOPO DIV E LATERAIS */
+    }
+#titulo-Portfolio {
+    color: #49BFB3;
+    font-size: 30px;
+}
+
+.conteudo-portfolio {
+    display: flex; /* deixamos pra centralizar conteudo no meio */
+    flex-direction: column; /* deixamos para deixar um emabixo do outro */
+    align-items: center;
+}
+
+.info-portfolio {
+    width: 100%;
+    max-width: 600px;
+}
+
+.titulo-portfolio2 {
+    color: #49BFB3;
+}
+
+#rodape {
+    background-color: #5A53D8;
+    padding: 38px;
+    color: white;
+}
+.rodape_item span a{
+    color: white;
+}
+
+.rodape_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.rodape_icon {
+ width: 25px;
+margin-right: 18px;
+}
