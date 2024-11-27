@@ -1,34 +1,61 @@
+/* Resetando margens e paddings para body, nav, main */
 body, nav, main {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    background-image: url('./imagem/bg-topo1.png'); 
+    background-size: cover; 
+    background-position: center; /
+    background-attachment: fixed; 
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    
+    
 }
 
-
+/* Estilo para a seção principal */
 .principal {
-    background-color: #EDEAEA;
+    background-color: rgba(250, 244, 244, 0.5); 
     padding-top: 0;
-    text-align: center;
+    text-align: left;
     display: flex;
     justify-content: center;
     align-items: center;
-} 
-
-#sobre {
-padding: 50px;
-max-width: 600px;
+    height: 100vh; 
 }
+
+.sobre {
+    padding: 30px;
+    max-width: 90%;
+    margin: 0 auto;
+
+
+}
+
+/* Estilo para o título */
+.titulo {
+    color: hwb(0 0% 97%);
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: left; 
+    padding-left: 20px; /* Espaçamento à esquerda */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para o texto */
+    
+}
+
+/* Estilo para o menu */
 .menu {
-    background-color: #938DF8;
-    padding: 30px 0;
-    text-align: end /* coloca os itens para direta da pagina  */
-    ;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px 0;
+    text-align: right; /* Corrigido para alinhar os itens à direita */
 }
 
 .menu ul {
     margin: 0;
     padding: 0;
-    list-style-type: none; /* tira estilo de lista */
+    list-style-type: none; /* Tira estilo de lista */
 }
 
 .menu ul li {
@@ -38,77 +65,78 @@ max-width: 600px;
 
 .menu ul li a {
     text-decoration: none;
-    color: white;
+    color: #0c0c0c;
     font-size: 20px;
     font-weight: bold;
 }
 
-.imagem {
-    width: 150px;
-    border-radius: 10px; /* deixa a imagem mais redonda, tipo borda */
-
-}
+/* Estilos para outras seções */
 .seçao-tres {
     background-color: #EDEAEA;
-    ;
 }
 
 .seçao-quatro {
     background-color: #5A53D8;
-    ;
 }
-.titulo {
-    color: #938DF8;
-    font-size: 36px;
-    font-family: 'Roboto' , sans-serif;
-    font-weight: 700;
-}
+
+/* Estilo para subtítulo */
 .subtitulo {
-    font-size: 24px;
+    font-size: 3px;
     font-weight: 700;
 }
+
+/* Estilos de parágrafo */
 .primeiro-paragrafo {
-    font-size: 16px;
-    line-height: 22/4px;
-    max-width: 500px;
-    }
-
-    #formacao {
-        background-color: #fff;
-        padding: 30px 80px;
-    }
-    
-    .titulo_formacao {
-        color: #49BFB3;
-        font-size: 30px;
-    }
-    
-    .conteudo_formacao {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .info_formacao {
+        font-size: 16px;
+        line-height: 22/4px;
         width: 100%;
-        max-width: 600px;
-        padding: 20px;
-        margin-bottom: 20px;
-    }
-    /* COMETARIO SHIFT ALT E A */
+        max-width: 800px; /* Aumente o valor para ajustar a largura */
+        padding: 20px; /* Adiciona um padding para aumentar o espaço interno */
+        margin: 0 auto; /* Centraliza o parágrafo */
+        text-align: justify;
 
-    #Portfolio {
-        background-color: #EDEAEA;
-        padding: 30px 80px; /* ESPAÇAMENTO TOPO DIV E LATERAIS */
-    }
-#titulo-Portfolio {
+    
+    max-width: 500px;
+}
+
+/* Estilos para a seção de formação */
+#formacao {
+    background-color: #fff;
+    padding: 30px 80px;
+}
+
+.titulo_formacao {
     color: #49BFB3;
     font-size: 30px;
 }
 
+.conteudo_formacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info_formacao {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para a seção de Portfolio */
+#Portfolio {
+    background-color: #EDEAEA;
+    padding: 30px 80px;
+}
+
+#titulo-Portfolio {
+    color: #3b5a57;
+    font-size: 30px;
+}
+
 .conteudo-portfolio {
-    display: flex; /* deixamos pra centralizar conteudo no meio */
-    flex-direction: column; /* deixamos para deixar um emabixo do outro */
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -121,12 +149,14 @@ max-width: 600px;
     color: #49BFB3;
 }
 
+/* Estilo para o rodapé */
 #rodape {
-    background-color: #5A53D8;
+    background-color: #3b5a57;
     padding: 38px;
     color: white;
 }
-.rodape_item span a{
+
+.rodape_item span a {
     color: white;
 }
 
@@ -135,7 +165,8 @@ max-width: 600px;
     align-items: center;
     margin-bottom: 10px;
 }
+
 .rodape_icon {
- width: 25px;
-margin-right: 18px;
+    width: 25px;
+    margin-right: 18px;
 }
